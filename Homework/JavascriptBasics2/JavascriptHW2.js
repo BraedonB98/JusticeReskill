@@ -18,7 +18,7 @@ else{
 
 function gradeAssesment(gradeVal)
 {
-    var oneDigit = ''+gradeVal;
+    var oneDigit = '' + gradeVal;
     oneDigit = oneDigit[oneDigit.length-1];
     if (gradeVal = 100)
     {
