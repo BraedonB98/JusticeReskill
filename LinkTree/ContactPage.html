@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Braedon Bellamy Contact from </title>
+    </head>
+    <body>
+        <H1 align = center >Contact Form</H1>
+        <form>
+            <!--First name -->
+            <label for="fname">First name:</label>
+            <input type="text" id = "fname" name = "fname"><br><br>
+
+            <!--Last name -->
+            <label for="lname">Last name:</label>
+            <input type="text" id = "lname" name = "lname"><br><br>
+
+            <!--Email -->
+            <label for="email">Email:</label>
+            <input type="email" id = "email" name = "email"><br><br>
+
+            <!--Phone number -->
+            <label for="pnumber">Phone Number:</label>
+            <input type="tele" id = "pnumber" name = "pnumber" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
+            <small>Please Format:123-456-7890</small><br><br>
+
+            <!--Age-->
+            <label for="age">Age:</label>
+            <input type="number" id = "age" name = "age"><br><br>
+
+            <!--Message -->
+            <label for="message">Message:</label><br>
+            <textarea name= "message" rows = "6" cols = "100">Enter text here...</textarea><br><br>
+
+           <!--Button for preferred contact method -->
+            <label for="prefCont">Preferred contact method?</label><br>
+            <input type="radio" id="prefEmail" name="prefCont" value="email">
+            <label for="prefEmail">Email</label><br>
+            <input type="radio" id="prefPhone" name="prefCont" value="phone">
+            <label for="prefPhone">Phone</label><br>
+            <input type="radio" id="prefNoCont" name="prefCont" value="noContact">
+            <label for="prefNoCont">No Contact</label><br><br>
+
+            <!--Income button?-->
+            <label for="usrIncome">User Income</label><br>
+            <input type="radio" id="usrIncomeless1" name="usrIncome" value="1">
+            <label for="usrIncomeless1">$1 or less</label><br>
+            <input type="radio" id="usrIncome2" name="usrIncome" value="2">
+            <label for="usrIncome2">$2</label><br>
+            <input type="radio" id="usrIncome3" name="usrIncome" value="3">
+            <label for="usrIncome3">$3 or more</label><br><br>
+
+            <!--Verify button-->
+            <label for="usrVer">Is the information above accurate to the best of your knowledge?</label><br>
+            <input type="checkbox" id="verifiedCheck" name="usrVer" value="True">
+
+            <!--Submit Button-->
+            <input type="Submit" value="Submit">
+        </form>
+    </body>
+</html>

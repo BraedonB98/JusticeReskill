@@ -1,0 +1,8 @@
+On Multi-Class project linked tree part 2 , assignment 1, step 3 it says a secret answer, which will not be
+displayed to the user. what does it mean by this and how do you not have it on the page without the user being able to
+see it?
+
+When a form is submitted, where do the answers/submissions go? Do we have to write the HTML code to save/do something with
+submitted answers?
+
+Can you have an id that is the same if they are like a button and an input box?
