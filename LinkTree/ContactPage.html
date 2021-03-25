@@ -6,14 +6,14 @@
             .headerAllign{
                 text-align:center;
             }
-            body{
-                background-color: teal;
-            }
+
             label{
                 font: message-box;
                 font-size: medium;
             }
         </style>
+        <script src="Script.js"></script>
+        <link rel= "stylesheet"href="style.css">
     </head>
     <body>
         <H1 class="headerAllign" >Contact Form</H1>
@@ -35,6 +35,11 @@
             <label for="pnumber">Phone Number:</label>
             <input type="tele" id = "pnumber" name = "pnumber" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
             <small>Please Format:123-456-7890</small><br><br>
+
+            <!--Password -->
+            <label for="usrPassword">Password:</label>
+            <input type="password" id = "usrPassword" name = "usrPassword"><br><br>
+            
 
             <!--Age-->
             <label for="age">Age:</label>
@@ -67,7 +72,7 @@
             <input type="checkbox" id="verifiedCheck" name="usrVer" value="True">
 
             <!--Submit Button-->
-            <input type="Submit" value="Submit">
+            <button type="Submit" value="Submit" id="submitbutton" onclick="submitButtonPress()">Submit Me </button>
         </form>
     </body>
 </html>
